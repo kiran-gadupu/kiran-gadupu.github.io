@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiran Kumar Gadupu - Software Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 0;
+        }
+        .section {
+            padding: 80px 0;
+        }
+        .skill-card {
+            transition: transform 0.3s ease;
+        }
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+        .social-links a {
+            color: #6c757d;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">KG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="about">
+        <div class="container text-center">
+            <img src="https://avatars.githubusercontent.com/u/142599364?v=4" alt="Kiran Kumar Gadupu" class="rounded-circle mb-4" width="150">
+            <h1 class="display-4 fw-bold">Kiran Kumar Gadupu</h1>
+            <p class="lead">Software Developer at Annalect</p>
+            <div class="social-links mt-4">
+                <a href="https://github.com/kiran-gadupu" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/kiran-gadupu" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section bg-light" id="skills">
+        <div class="container">
+            <h2 class="text-center mb-5">Skills & Expertise</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card skill-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-code fa-3x mb-3 text-primary"></i>
+                            <h4 class="card-title">Software Development</h4>
+                            <p class="card-text">Experienced in building secure and efficient software solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skill-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-shield-alt fa-3x mb-3 text-success"></i>
+                            <h4 class="card-title">Security</h4>
+                            <p class="card-text">Strong focus on secure development practices and data protection.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skill-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-project-diagram fa-3x mb-3 text-info"></i>
+                            <h4 class="card-title">Project Management</h4>
+                            <p class="card-text">Managing multiple private repositories and development projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="text-center mb-5">Professional Experience</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Software Developer</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Annalect</h6>
+                            <p class="card-text">
+                                Working on proprietary software solutions and maintaining secure development practices.
+                                Managing multiple private repositories and contributing to various internal projects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section bg-light" id="contact">
+        <div class="container text-center">
+            <h2 class="mb-5">Get in Touch</h2>
+            <p class="lead mb-4">Based in Hyderabad, India</p>
+            <div class="social-links">
+                <a href="https://github.com/kiran-gadupu" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/kiran-gadupu" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Kiran Kumar Gadupu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
