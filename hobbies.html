@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies - Kiran Kumar Gadupu</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hobby-card {
+            transition: transform 0.3s ease;
+            margin-bottom: 30px;
+        }
+        .hobby-card:hover {
+            transform: translateY(-5px);
+        }
+        .hobby-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #764ba2;
+        }
+        .section-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">KG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="section-header">
+        <div class="container text-center">
+            <h1 class="display-4">My Hobbies</h1>
+            <p class="lead">Exploring interests beyond the code</p>
+        </div>
+    </header>
+
+    <!-- Hobbies Section -->
+    <section class="container py-5">
+        <div class="row">
+            <!-- Stamp Collection -->
+            <div class="col-lg-6 col-md-6">
+                <div class="card hobby-card h-100">
+                    <div class="card-body text-center">
+                        <div class="hobby-icon">
+                            <i class="fas fa-stamp"></i>
+                        </div>
+                        <h3 class="card-title">Stamp Collection</h3>
+                        <p class="card-text">
+                            Passionate about philately, I collect stamps from around the world. Each stamp tells a unique story about its country's history, culture, and art. My collection includes rare stamps from various eras and regions, making it a fascinating journey through time and geography.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coin Collection -->
+            <div class="col-lg-6 col-md-6">
+                <div class="card hobby-card h-100">
+                    <div class="card-body text-center">
+                        <div class="hobby-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3 class="card-title">Coin Collection</h3>
+                        <p class="card-text">
+                            Numismatics has been a fascinating hobby for me. My collection includes coins from different periods and civilizations, each representing unique moments in history. From ancient coins to modern commemorative pieces, every item in my collection has its own story to tell.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Travel -->
+            <div class="col-lg-6 col-md-6">
+                <div class="card hobby-card h-100">
+                    <div class="card-body text-center">
+                        <div class="hobby-icon">
+                            <i class="fas fa-plane-departure"></i>
+                        </div>
+                        <h3 class="card-title">Travel</h3>
+                        <p class="card-text">
+                            Exploring new places, experiencing different cultures, and meeting people from around the world is one of my greatest passions. Each journey brings new perspectives, memories, and stories. I believe travel is the best way to broaden one's horizons and understand the world better.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Playing Sports -->
+            <div class="col-lg-6 col-md-6">
+                <div class="card hobby-card h-100">
+                    <div class="card-body text-center">
+                        <div class="hobby-icon">
+                            <i class="fas fa-basketball-ball"></i>
+                        </div>
+                        <h3 class="card-title">Playing Sports</h3>
+                        <p class="card-text">
+                            Sports have always been an integral part of my life. They teach valuable lessons about teamwork, discipline, and perseverance. Whether it's a competitive game or casual play, sports provide both physical exercise and mental refreshment, helping maintain a healthy work-life balance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Kiran Kumar Gadupu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
