@@ -17,10 +17,10 @@
         .section {
             padding: 80px 0;
         }
-        .skill-card {
+        .skill-card, .hobby-card {
             transition: transform 0.3s ease;
         }
-        .skill-card:hover {
+        .skill-card:hover, .hobby-card:hover {
             transform: translateY(-5px);
         }
         .social-links a {
@@ -30,6 +30,11 @@
             transition: color 0.3s ease;
         }
         .social-links a:hover {
+            color: #764ba2;
+        }
+        .hobby-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
             color: #764ba2;
         }
     </style>
@@ -54,7 +59,7 @@
                         <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                        <a class="nav-link" href="#hobbies">Hobbies</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -135,8 +140,76 @@
         </div>
     </section>
 
+    <!-- Hobbies Section -->
+    <section class="section bg-light" id="hobbies">
+        <div class="container">
+            <h2 class="text-center mb-5">My Hobbies</h2>
+            <div class="row">
+                <!-- Stamp Collection -->
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card hobby-card h-100">
+                        <div class="card-body text-center">
+                            <div class="hobby-icon">
+                                <i class="fas fa-stamp"></i>
+                            </div>
+                            <h3 class="card-title">Stamp Collection</h3>
+                            <p class="card-text">
+                                Passionate about philately, I collect stamps from around the world. Each stamp tells a unique story about its country's history, culture, and art. My collection includes rare stamps from various eras and regions, making it a fascinating journey through time and geography.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coin Collection -->
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card hobby-card h-100">
+                        <div class="card-body text-center">
+                            <div class="hobby-icon">
+                                <i class="fas fa-coins"></i>
+                            </div>
+                            <h3 class="card-title">Coin Collection</h3>
+                            <p class="card-text">
+                                Numismatics has been a fascinating hobby for me. My collection includes coins from different periods and civilizations, each representing unique moments in history. From ancient coins to modern commemorative pieces, every item in my collection has its own story to tell.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Travel -->
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card hobby-card h-100">
+                        <div class="card-body text-center">
+                            <div class="hobby-icon">
+                                <i class="fas fa-plane-departure"></i>
+                            </div>
+                            <h3 class="card-title">Travel</h3>
+                            <p class="card-text">
+                                Exploring new places, experiencing different cultures, and meeting people from around the world is one of my greatest passions. Each journey brings new perspectives, memories, and stories. I believe travel is the best way to broaden one's horizons and understand the world better.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Playing Sports -->
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card hobby-card h-100">
+                        <div class="card-body text-center">
+                            <div class="hobby-icon">
+                                <i class="fas fa-basketball-ball"></i>
+                            </div>
+                            <h3 class="card-title">Playing Sports</h3>
+                            <p class="card-text">
+                                Sports have always been an integral part of my life. They teach valuable lessons about teamwork, discipline, and perseverance. Whether it's a competitive game or casual play, sports provide both physical exercise and mental refreshment, helping maintain a healthy work-life balance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
-    <section class="section bg-light" id="contact">
+    <section class="section" id="contact">
         <div class="container text-center">
             <h2 class="mb-5">Get in Touch</h2>
             <p class="lead mb-4">Based in Hyderabad, India</p>
